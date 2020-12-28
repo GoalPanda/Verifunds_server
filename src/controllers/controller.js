@@ -33,13 +33,14 @@ const receivePublicToken = async (req, res) => {
 };
 
 const getTransactions = async (req, res) => {
+  const { access_token } = req.body
   let startDate = moment()
     .subtract(90, "days")
     .format("YYYY-MM-DD");
   let endDate = moment().format("YYYY-MM-DD");
   console.log("made it past variables");
   client.getTransactions(
-    ACCESS_TOKEN,
+    access_token,
     startDate,
     endDate,
     {
