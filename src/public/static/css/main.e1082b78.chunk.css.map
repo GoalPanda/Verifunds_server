@@ -1,1 +1,0 @@
-{"version":3,"sources":["Bank.scss"],"names":[],"mappings":"AAAA,iBACE,mBAAuB,CACvB,gCAAkC,CAClC,qBAAuB,CACvB,kBAAmB","file":"main.e1082b78.chunk.css","sourcesContent":[".choose-bank-btn {\r\n  padding: 0px !important;\r\n  background: transparent !important;\r\n  border: none !important;\r\n  margin-bottom: 20px;\r\n}"]}
