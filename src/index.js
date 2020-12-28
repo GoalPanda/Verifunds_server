@@ -13,7 +13,7 @@ app.use(express.json());
 app.post("/api/plaid/auth/public_token", receivePublicToken);
 
 // Get Transactions
-app.get("/api/plaid/transactions", getTransactions);
+app.post("/api/plaid/transactions", getTransactions);
 
 app.post('/api/plaid/getBalance', getBalance);
 
